@@ -1,0 +1,7 @@
+# One service per line. `#` starts a comment.
+# Optional :N suffix caps restarts for that service to N per hour (default 3).
+nginx
+php8.2-fpm
+mysql
+redis-server:5
+postfix
